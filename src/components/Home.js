@@ -1,8 +1,5 @@
 import React from "react";
-
-// use these variables in your JSX (update them with your own name and city)
-const name = "Liza";
-const city = "New York";
+import { name, city } from "../data/data.js";
 
 function Home() {
   // update the JSX being returned!
@@ -10,6 +7,3 @@ function Home() {
 }
 
 export default Home;
-
-// this export is needed for the tests!
-export { name, city };

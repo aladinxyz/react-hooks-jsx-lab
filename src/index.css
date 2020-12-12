@@ -50,7 +50,8 @@ nav a:active {
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 100vh;
+  height: 50vh;
+  min-height: 400px;
   padding: 1rem;
 }
 

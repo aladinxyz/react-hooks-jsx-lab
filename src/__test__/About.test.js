@@ -1,7 +1,7 @@
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-
-import About, { image } from "../components/About";
+import { image } from "../data/data";
+import About from "../components/About";
 
 test("renders a <div> with the correct ID", () => {
   const { container } = render(<About />);
