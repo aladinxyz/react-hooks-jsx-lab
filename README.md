@@ -16,7 +16,7 @@ Begin with `npm install`. Examine what is rendering in the browser with
 
 Our goal will be to make our page look like this:
 
-![demo app](https://github.com/learn-co-curriculum/react-hooks-jsx-lab/blob/master/images/demo.png)
+![demo app](https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-jsx-lab/master/images/demo.png)
 
 Once your app matches the demo image, run `learn test` or `npm test` to check
 your work.
