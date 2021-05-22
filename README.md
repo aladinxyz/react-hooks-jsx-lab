@@ -1,8 +1,8 @@
 # JSX Lab
 
-## Objectives
+## Learning Goals
 
-- Practice creating HTML elements using JSX syntax
+- Use JSX syntax to create DOM elements
 
 ## Instructions
 
@@ -16,7 +16,7 @@ Begin with `npm install`. Examine what is rendering in the browser with
 
 Our goal will be to make our page look like this:
 
-![demo app](https://raw.githubusercontent.com/learn-co-curriculum/react-hooks-jsx-lab/master/images/demo.png)
+![demo app](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-jsx-lab/demo.png)
 
 Once your app matches the demo image, run `learn test` or `npm test` to check
 your work.
