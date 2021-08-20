@@ -14,10 +14,9 @@ test("renders a <div> with three children", () => {
 });
 
 test("renders a <h2> with the text 'About Me'", () => {
-  render(<About />);
-  const h2 = screen.queryByText(/about me/i);
-  expect(h2).toBeInTheDocument();
-  expect(h2.tagName).toEqual("H2");
+  const { container } = render(<About />);
+  const h2 = container.querySelector("h2");
+  expect(h2.textContent).toEqual("About Me");
 });
 
 test("renders a <p> element", () => {
