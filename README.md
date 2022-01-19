@@ -48,6 +48,9 @@ The `<Home>` component should return the following JSX elements:
   - use JSX expression syntax to use the imported `name` and `city` variables
     inside your JSX elements
 
+**Hint**: consult the [React documentation the `style` property][style] to see
+how to set the color correctly.
+
 ### About
 
 The `<About>` component should return the following JSX elements:
@@ -56,10 +59,12 @@ The `<About>` component should return the following JSX elements:
 - inside the div element, there should be three child elements:
   - an `<h2>` element with the content of "About Me"
   - a `<p>` element with any content of your choosing
-  - an `<img>` element with the `src` attribute set to the `image` variable, and
-    the `alt` attribute set to "I made this"
+  - an `<img>` element with the `src` attribute set to the imported `image`
+    variable, and the `alt` attribute set to "I made this"
 
 ## Resources
 
 - [JSX](https://reactjs.org/docs/introducing-jsx.html)
-- [Inline Style in JSX](https://reactjs.org/docs/dom-elements.html#style)
+- [Inline Style in JSX][style]
+
+[style]: https://reactjs.org/docs/dom-elements.html#style
