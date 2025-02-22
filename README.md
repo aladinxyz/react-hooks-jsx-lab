@@ -16,7 +16,6 @@ Begin with `npm install`. Examine what is rendering in the browser with
 
 Our goal will be to make our page look like this:
 
-![demo app](https://curriculum-content.s3.amazonaws.com/phase-2/phase-2-hooks-jsx-lab/demo.png)
 
 Once your app matches the demo image, run `npm test` to check your work.
 
@@ -47,8 +46,6 @@ The `<Home>` component should return the following JSX elements:
   - use JSX expression syntax to use the imported `name` and `city` variables
     inside your JSX elements
 
-**Hint**: consult the [React documentation the `style` property][style] to see
-how to set the color correctly.
 
 ### About
 
@@ -62,8 +59,3 @@ The `<About>` component should return the following JSX elements:
     variable, and the `alt` attribute set to "I made this"
 
 ## Resources
-
-- [JSX](https://reactjs.org/docs/introducing-jsx.html)
-- [Inline Style in JSX][style]
-
-[style]: https://reactjs.org/docs/dom-elements.html#style
