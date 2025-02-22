@@ -58,4 +58,3 @@ The `<About>` component should return the following JSX elements:
   - an `<img>` element with the `src` attribute set to the imported `image`
     variable, and the `alt` attribute set to "I made this"
 
-## Resources
